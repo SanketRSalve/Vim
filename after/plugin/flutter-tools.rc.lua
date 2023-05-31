@@ -1,5 +1,5 @@
 require('flutter-tools').setup{}
-vim.api.nvim_set_keymap('n', '<leader>fr', ':FlutterRun',
+vim.api.nvim_set_keymap('n', '<leader>fr', ':FlutterRun<CR>',
   { noremap = true, silent = true})
 vim.api.nvim_set_keymap('n', '<leader>fc',
 [[<Cmd>lua require('telescope').extensions.flutter.commands()<CR>]],

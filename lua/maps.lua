@@ -47,4 +47,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 
 
-
+-- Flutter-Keymaps
+keymap.set("n", "<leader><F6>", ":FlutterRestart<CR>")
+keymap.set("n", "<leader><F5>", ":FlutterReload<CR>")
+keymap.set("n", "<leader>fq", ":FlutterQuit<CR>")
